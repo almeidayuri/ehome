@@ -1,0 +1,62 @@
+body { 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('logo.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+}
+
+.login-container {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 35px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+    transition: text-shadow 0.3s ease, color 0.3s ease;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+/* Adicionando o efeito de luz ao passar o mouse */
+h1:hover, h2:hover {
+    text-shadow: 0 0 20px #ff8800cc, 0 0 40px #ff8800cc;
+    color: #ff8800cc;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    background-color: #ff5e00;
+    color: white;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b33900;
+}
