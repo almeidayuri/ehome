@@ -1,7 +1,7 @@
 // Credenciais de usuário
 const users = {
-    "admin": "1234", // Usuário: senha
-    "user1": "abcd"
+    "admin": "", // Usuário: senha
+    "user1": ""
 };
 
 // Adiciona o efeito de bits alternando
@@ -23,16 +23,10 @@ function simulateBits(elementId) {
 }
 
 function login() {
-    const username = document.getElementById('username').value;
-    const password = document.getElementById('password').value;
-
-    if (users[username] === password) {
-        // Redireciona diretamente para o link desejado
+    
         window.location.href = "http://homeassistant.local:8123/";
-    } else {
-        alert("Usuário ou senha inválidos!");
     }
-}
+
 
 // Inicia o efeito de bits no título e subtítulo
 simulateBits("title");
