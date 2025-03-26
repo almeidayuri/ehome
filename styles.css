@@ -5,7 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('logo.png') no-repeat center;
+    background: url('./assets/background.jpg') no-repeat center;
     background-size: cover;
     font-family: 'Times New Roman', Times, serif;
     color: #fff;
@@ -23,8 +23,9 @@ body {
 h1, h2 {
     margin-bottom: 10px;
     font-size: 24px;
-    text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+    text-shadow: 0 0 5px rgba(0, 157, 248, 0.685);
     transition: text-shadow 0.3s ease, color 0.3s ease;
+    color: 	#ffffff;
 }
 
 h2 {
@@ -149,7 +150,9 @@ button:hover {
     text-align: center;
     margin-top: 50px;
 }
-
+.login-container button {
+    text-shadow: 0 0 5px rgba(0, 157, 248, 0.685);
+}
 
 
 
