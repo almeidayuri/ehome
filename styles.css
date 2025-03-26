@@ -186,3 +186,35 @@ button:hover {
         padding: 12px 20px;
     }
 }
+
+.popup {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    display: none; /* Começa oculto */
+    text-align: center;
+    z-index: 1000;
+}
+
+.popup buttonPop {
+    margin-top: 10px;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#install-btn {
+    background: #25D366;
+    color: white;
+}
+
+#close-btn {
+    background: gray;
+    color: white;
+}
