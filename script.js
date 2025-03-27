@@ -11,7 +11,6 @@ function login() {
 
 
 
-
 //fechar pwa splash screen
 window.addEventListener("load", () => {
     setTimeout(() => {
