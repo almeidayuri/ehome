@@ -31,3 +31,11 @@ function login() {
 // Inicia o efeito de bits no título e subtítulo
 simulateBits("title");
 simulateBits("subtitle");
+
+
+//fechar pwa splash screen
+window.addEventListener("load", () => {
+    setTimeout(() => {
+        document.querySelector(".splash-screen").style.display = "none";
+    }, 2000); // A splash screen desaparece após 2 segundos
+});

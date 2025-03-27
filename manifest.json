@@ -2,7 +2,7 @@
     "name": "EHome App",
     "short_name": "EHome",
     "start_url": "https://almeidayuri.github.io/ehome/",
-    "display": "standalone",
+    "display": "fullscreen",
     "background_color": "#FFFFFF",
     "theme_color": "#FFFFFF",
     "icons": [
