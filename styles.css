@@ -231,14 +231,9 @@ button:hover {
     align-items: center;
     justify-content: center;
     z-index: 9999;
+    transition: opacity 0.5s ease-out; /* Efeito suave de fade-out */
 }
 
 .splash-screen img {
     width: 150px; /* Ajuste conforme necessário */
-    animation: fadeOut 2s forwards; /* Suaviza a transição */
-}
-
-@keyframes fadeOut {
-    0% { opacity: 1; }
-    100% { opacity: 0; }
 }

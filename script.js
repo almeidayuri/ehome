@@ -36,6 +36,12 @@ simulateBits("subtitle");
 //fechar pwa splash screen
 window.addEventListener("load", () => {
     setTimeout(() => {
-        document.querySelector(".splash-screen").style.display = "none";
-    }, 2000); // A splash screen desaparece após 2 segundos
+        const splashScreen = document.querySelector(".splash-screen");
+        if (splashScreen) {
+            splashScreen.style.opacity = "0"; // Adiciona um efeito de fade-out
+            setTimeout(() => {
+                splashScreen.style.display = "none"; // Esconde a splash screen após o fade-out
+            }, 500); // Aguarde 0.5s para o efeito de fade
+        }
+    }, 2000); // Tempo total de exibição da splash screen (2 segundos)
 });
