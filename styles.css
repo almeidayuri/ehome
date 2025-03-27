@@ -210,8 +210,8 @@ button:hover {
 }
 
 #install-btn {
-    background: #25D366;
-    color: white;
+    background: hsl(0, 0%, 0%);
+    color: grey;
 }
 
 #close-btn {
