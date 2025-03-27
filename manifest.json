@@ -3,8 +3,8 @@
     "short_name": "EHome",
     "start_url": "https://almeidayuri.github.io/ehome/",
     "display": "fullscreen",
-    "background_color": "#FFFFFF",
-    "theme_color": "#FFFFFF",
+    "background_color": "#80808080",
+    "theme_color": "#80808080",
     "icons": [
       {
         "src": "./assets/iconEcomp.png",
