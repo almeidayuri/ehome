@@ -6,7 +6,7 @@ const users = {
 
 function login() {
     
-        window.location.href = "http://casavirtual.sejahomeone.com.br";
+        window.location.href = "http://homeassistant.local:8123";
     }
 
 
