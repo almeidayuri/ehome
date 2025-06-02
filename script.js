@@ -6,7 +6,7 @@ const users = {
 
 function login() {
     
-        window.location.href = "http://homeassistant.local:8123";
+        window.location.href = "https://5rqytlhfz6wr444ns8yt7blm95bxb16q.ui.nabu.casa";
     }
 
 
